@@ -1,0 +1,13 @@
+Package: riotapi
+Type: Package
+Title: Library to the Riot API
+Version: 1.0
+Date: 2015-05-02
+Author: Devin Turner
+Maintainer: Devin Turner <dfturn@gmail.com>
+Description: Wraps the Riot API seen at https://developer.riotgames.com/ to more easily query for League of Legends data.
+License: MIT + file LICENSE
+Imports:
+    jsonlite,
+    rmongodb,
+    httr
