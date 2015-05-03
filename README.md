@@ -1,6 +1,9 @@
 # riotapi
 R library for the Riot API
 
+## Dependencies
+* MongoDB (and rmongodb)
+
 ## How to Use
 Run:
 
@@ -10,6 +13,8 @@ Run:
 
 ## To Do
 * Create test cases
-* Support time limits on cache data
+* Improve caching
+** Support time limits on cache data
+** Make it a little more intuitive
 * Add more documentation
 * Abstract out state

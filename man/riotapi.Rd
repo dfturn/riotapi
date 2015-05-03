@@ -12,6 +12,12 @@ closely with endpoint names as possible. Not all endpoint parameters
 are explicitly labelled in function declarations.
 }
 \details{
+By default all data is permanently cached based on query URL. This will not always
+be the intended behavior. To modify cache behavior, pass to_cache=FALSE
+or from_cache=FALSE to any endpoint function. As their names indicate, these
+parameters respectively prevent data being cached and prevent data being obtained
+from the cache.
+
 To provide any unnamed parameters simply use the extra named arguments with (...)
 
 To pass in a list as a parameter to an endpoint, use c().
