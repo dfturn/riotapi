@@ -14,7 +14,7 @@ Run:
 ## To Do
 * Create test cases
 * Improve caching
-** Support time limits on cache data
-** Make it a little more intuitive
+ * Support time limits on cache data
+ * Make it a little more intuitive
 * Add more documentation
 * Abstract out state
